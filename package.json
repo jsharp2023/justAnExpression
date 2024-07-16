@@ -1,0 +1,18 @@
+{
+  "name": "just-an-expression",
+  "version": "1.0.0",
+  "description": "1. **Project Setup**\r    - Create a new directory called `justAnExpression`.\r    - Navigate to the `justAnExpression` folder.\r    - Create an `app.js` file using the `touch` command.\r    - Initialize a Node.js project with default settings using `npm init -y`.\r    - Open the project folder.\r    - Install Express and Morgan as dependencies using `npm i`.\r    - In `app.js`, create an Express server and configure it to use Morgan as a logger. Don't forget to enable `.json()` support.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.4",
+    "uuid": "^10.0.0"
+  }
+}
